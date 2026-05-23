@@ -1,8 +1,8 @@
-# MARS Skills
+# Shapp Skills
 
 **Language / 언어:** [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-**MARS**（Mini-App Runtime System）에 준거하는 패키지를 생성하기 위한 [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental) 모음입니다. 앱형 미니앱과 Cocos Creator 또는 Unity 기반의 게임형 미니앱 생성을 지원합니다.
+**Shapp**（Mini-App Runtime System）에 준거하는 패키지를 생성하기 위한 [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental) 모음입니다. 앱형 미니앱과 Cocos Creator 또는 Unity 기반의 게임형 미니앱 생성을 지원합니다.
 
 ---
 
@@ -16,9 +16,9 @@ Skill은 도메인 지식, 개발 규약, 제약 조건을 GitHub Copilot Agent�
 
 | Skill | 설명 | 사용 시점 |
 |-------|------|-----------|
-| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | MARS **앱형** 미니앱 패키지 생성 (WebView 프론트엔드 + TypeScript 백엔드) | 도구, 전자상거래, 소셜 등 비게임 미니앱을 개발할 때 |
-| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | **Cocos Creator**를 사용하는 MARS **게임형** 미니앱 패키지 생성 | Cocos Creator 엔진으로 게임 미니앱을 개발할 때 |
-| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | **Unity**를 사용하는 MARS **게임형** 미니앱 패키지 생성 | Unity 엔진으로 게임 미니앱을 개발할 때 |
+| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | Shapp **앱형** 미니앱 패키지 생성 (WebView 프론트엔드 + TypeScript 백엔드) | 도구, 전자상거래, 소셜 등 비게임 미니앱을 개발할 때 |
+| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | **Cocos Creator**를 사용하는 Shapp **게임형** 미니앱 패키지 생성 | Cocos Creator 엔진으로 게임 미니앱을 개발할 때 |
+| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | **Unity**를 사용하는 Shapp **게임형** 미니앱 패키지 생성 | Unity 엔진으로 게임 미니앱을 개발할 때 |
 
 ---
 
@@ -74,7 +74,7 @@ Copilot Chat 또는 `.github/copilot-instructions.md` 파일에서 `#` 파일 �
 
 ### 3. 생성 시작
 
-만들고 싶은 내용을 설명하면 Copilot이 Skill에 기록된 MARS 프로토콜 규칙, SDK 제약 조건, 패키징 제한을 자동으로 적용합니다.
+만들고 싶은 내용을 설명하면 Copilot이 Skill에 기록된 Shapp 프로토콜 규칙, SDK 제약 조건, 패키징 제한을 자동으로 적용합니다.
 
 ---
 
@@ -94,7 +94,7 @@ Copilot Chat 또는 `.github/copilot-instructions.md` 파일에서 `#` 파일 �
 1. 이 저장소를 Fork합니다.
 2. `skills/<skill-name>/` 아래에 Skill을 생성하거나 수정합니다.
 3. `SKILL.md`를 자기완결적으로 유지하세요 — 모델이 필요로 하는 모든 규칙은 해당 파일 또는 `references/` 하위 폴더에 있어야 합니다.
-4. MARS 프로토콜이나 SDK가 변경되면 reference 문서도 함께 업데이트하세요.
+4. Shapp 프로토콜이나 SDK가 변경되면 reference 문서도 함께 업데이트하세요.
 5. 변경 내용과 이유를 명확히 작성한 Pull Request를 제출하세요.
 
 ---

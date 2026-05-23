@@ -1,8 +1,8 @@
-﻿# MARS Skills
+﻿# Shapp Skills
 
 **Language / 语言:** [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-A collection of [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental) for generating **MARS** (Mini-App Runtime System) compliant packages — including app-type mini-apps and game-type mini-apps powered by Cocos Creator or Unity.
+A collection of [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental) for generating **Shapp** (Mini-App Runtime System) compliant packages — including app-type mini-apps and game-type mini-apps powered by Cocos Creator or Unity.
 
 ---
 
@@ -16,9 +16,9 @@ Skills are reusable prompt files (`.md`) that encode domain knowledge, conventio
 
 | Skill | Description | Use When |
 |-------|-------------|----------|
-| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | Generates MARS **app-type** mini-app packages (WebView frontend + TypeScript backend) | Building utilities, tools, e-commerce, social features, or any non-game mini-app |
-| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | Generates MARS **game-type** mini-app packages using **Cocos Creator** | Building a game mini-app with the Cocos Creator engine |
-| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | Generates MARS **game-type** mini-app packages using **Unity** | Building a game mini-app with the Unity engine |
+| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | Generates Shapp **app-type** mini-app packages (WebView frontend + TypeScript backend) | Building utilities, tools, e-commerce, social features, or any non-game mini-app |
+| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | Generates Shapp **game-type** mini-app packages using **Cocos Creator** | Building a game mini-app with the Cocos Creator engine |
+| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | Generates Shapp **game-type** mini-app packages using **Unity** | Building a game mini-app with the Unity engine |
 
 ---
 
@@ -74,7 +74,7 @@ Or configure it globally in `.vscode/settings.json`:
 
 ### 3. Start Generating
 
-Describe what you want to build. Copilot will follow the MARS protocol rules, SDK guardrails, and packaging constraints encoded in the skill automatically.
+Describe what you want to build. Copilot will follow the Shapp protocol rules, SDK guardrails, and packaging constraints encoded in the skill automatically.
 
 ---
 
@@ -94,7 +94,7 @@ Each skill follows this structure:
 1. Fork this repository.
 2. Create or update a skill under `skills/<skill-name>/`.
 3. Keep `SKILL.md` self-contained — all rules the model needs must be present in the file or in its `references/` sub-folder.
-4. Update the reference docs when the MARS protocol or SDK changes.
+4. Update the reference docs when the Shapp protocol or SDK changes.
 5. Open a pull request with a clear description of what changed and why.
 
 ---

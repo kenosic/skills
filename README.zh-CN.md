@@ -1,8 +1,8 @@
-# MARS Skills
+# Shapp Skills
 
 **Language / 语言:** [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-本仓库收录了一组用于生成 **MARS**（Mini-App Runtime System，微应用运行时系统）合规包的 [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental)，涵盖应用类微应用与基于 Cocos Creator 或 Unity 引擎的游戏类微应用。
+本仓库收录了一组用于生成 **Shapp**（Mini-App Runtime System，微应用运行时系统）合规包的 [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental)，涵盖应用类微应用与基于 Cocos Creator 或 Unity 引擎的游戏类微应用。
 
 ---
 
@@ -16,9 +16,9 @@ Skill 是可复用的提示词文件（`.md`），用于将领域知识、开发
 
 | Skill | 描述 | 适用场景 |
 |-------|------|----------|
-| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | 生成 MARS **应用类**微应用包（WebView 前端 + TypeScript 后端） | 构建工具类、电商、社交等非游戏类微应用 |
-| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | 生成使用 **Cocos Creator** 引擎的 MARS **游戏类**微应用包 | 使用 Cocos Creator 引擎开发游戏微应用 |
-| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | 生成使用 **Unity** 引擎的 MARS **游戏类**微应用包 | 使用 Unity 引擎开发游戏微应用 |
+| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | 生成 Shapp **应用类**微应用包（WebView 前端 + TypeScript 后端） | 构建工具类、电商、社交等非游戏类微应用 |
+| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | 生成使用 **Cocos Creator** 引擎的 Shapp **游戏类**微应用包 | 使用 Cocos Creator 引擎开发游戏微应用 |
+| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | 生成使用 **Unity** 引擎的 Shapp **游戏类**微应用包 | 使用 Unity 引擎开发游戏微应用 |
 
 ---
 
@@ -74,7 +74,7 @@ skills/
 
 ### 3. 开始生成
 
-描述你想构建的内容，Copilot 会自动遵循 Skill 中编码的 MARS 协议规范、SDK 约束与打包限制。
+描述你想构建的内容，Copilot 会自动遵循 Skill 中编码的 Shapp 协议规范、SDK 约束与打包限制。
 
 ---
 
@@ -94,7 +94,7 @@ skills/
 1. Fork 本仓库。
 2. 在 `skills/<skill-name>/` 下创建或更新 Skill。
 3. 保持 `SKILL.md` 自包含——模型所需的所有规则必须存在于该文件或其 `references/` 子目录中。
-4. 当 MARS 协议或 SDK 发生变更时，同步更新 reference 文档。
+4. 当 Shapp 协议或 SDK 发生变更时，同步更新 reference 文档。
 5. 提交 Pull Request，并清晰描述改动内容与原因。
 
 ---

@@ -1,8 +1,8 @@
-# MARS Skills
+# Shapp Skills
 
 **Language / 言語:** [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-**MARS**（Mini-App Runtime System）に準拠したパッケージを生成するための [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental) コレクションです。アプリ型ミニアプリ、および Cocos Creator または Unity を利用したゲーム型ミニアプリの生成をサポートします。
+**Shapp**（Mini-App Runtime System）に準拠したパッケージを生成するための [GitHub Copilot Skills](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental) コレクションです。アプリ型ミニアプリ、および Cocos Creator または Unity を利用したゲーム型ミニアプリの生成をサポートします。
 
 ---
 
@@ -16,9 +16,9 @@ Skill はドメイン知識・開発規約・制約条件を GitHub Copilot Agen
 
 | Skill | 説明 | 利用場面 |
 |-------|------|----------|
-| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | MARS **アプリ型**ミニアプリパッケージを生成（WebView フロントエンド + TypeScript バックエンド） | ツール・EC・SNS など非ゲームのミニアプリを構築する場合 |
-| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | **Cocos Creator** を使用した MARS **ゲーム型**ミニアプリパッケージを生成 | Cocos Creator エンジンでゲームミニアプリを開発する場合 |
-| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | **Unity** を使用した MARS **ゲーム型**ミニアプリパッケージを生成 | Unity エンジンでゲームミニアプリを開発する場合 |
+| [`mars-app-generator`](skills/mars-app-generator/SKILL.md) | Shapp **アプリ型**ミニアプリパッケージを生成（WebView フロントエンド + TypeScript バックエンド） | ツール・EC・SNS など非ゲームのミニアプリを構築する場合 |
+| [`mars-cocos-game-generator`](skills/mars-cocos-game-generator/SKILL.md) | **Cocos Creator** を使用した Shapp **ゲーム型**ミニアプリパッケージを生成 | Cocos Creator エンジンでゲームミニアプリを開発する場合 |
+| [`mars-unity-game-generator`](skills/mars-unity-game-generator/SKILL.md) | **Unity** を使用した Shapp **ゲーム型**ミニアプリパッケージを生成 | Unity エンジンでゲームミニアプリを開発する場合 |
 
 ---
 
@@ -74,7 +74,7 @@ Copilot Chat または `.github/copilot-instructions.md` で `#` ファイル参
 
 ### 3. 生成を開始する
 
-作りたいものを説明するだけで、Copilot が Skill に記載された MARS プロトコル規則・SDK 制約・パッケージ制限を自動的に適用します。
+作りたいものを説明するだけで、Copilot が Skill に記載された Shapp プロトコル規則・SDK 制約・パッケージ制限を自動的に適用します。
 
 ---
 
@@ -94,7 +94,7 @@ Copilot Chat または `.github/copilot-instructions.md` で `#` ファイル参
 1. このリポジトリを Fork します。
 2. `skills/<skill-name>/` 配下に Skill を作成または更新します。
 3. `SKILL.md` を自己完結させてください — モデルが必要とするルールはすべてそのファイルまたは `references/` に含める必要があります。
-4. MARS プロトコルや SDK が変更された場合は、reference ドキュメントも更新してください。
+4. Shapp プロトコルや SDK が変更された場合は、reference ドキュメントも更新してください。
 5. 変更内容と理由を明記した Pull Request を送ってください。
 
 ---
